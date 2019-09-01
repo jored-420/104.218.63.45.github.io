@@ -1,23 +1,18 @@
 <html>
 <head>
+<?php include ('log-ip.php') ?>
 <style>
 body {
     background-attachment: fixed;
     background-position: center;
     background-color: #000;
 }
+a {
+   style="color:red;
+}
 </style>
 </head>
 <body>
-
-
-<?php
-    // include this piece of code in every page call
-
-    // write in database row
-    $log = array('time' => time(), 'ip' => $_SERVER['REMOTE_ADDR'], 'url' => $_SERVER['REQUEST_URI']);
-?>
-
-
+<center>Welcome</center>
 </body>
 </html>
