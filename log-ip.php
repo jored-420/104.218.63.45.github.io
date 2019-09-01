@@ -1,5 +1,5 @@
 <?php
-$iplogfile = 'logs/ip-address-mainsite.html';
+$iplogfile = '/logs/ip-address-mainsite.txt';
 $ipaddress = $_SERVER['REMOTE_ADDR'];
 $webpage = $_SERVER['SCRIPT_NAME'];
 $timestamp = date('d/m/Y h:i:s');
